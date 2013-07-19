@@ -9,7 +9,7 @@ var buffer = new Buffer(16);
 buffer.write("hello","utf-8");
 
 app.get('/', function(request, response) {
-  response.send(buffer.toString('utf-8'));
+  response.send(content.toString('utf-8'));
 });
 
 var port = process.env.PORT || 5000;
