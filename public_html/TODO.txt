@@ -1,0 +1,6 @@
+images.php
+----------------
+-use loadImage to load images
+-change container to fit the image size width and height
+-Random should pick a random pic from the random folder OR random pic from images main folder. Maybe add both options with 2 links
+-Learn JQuery
